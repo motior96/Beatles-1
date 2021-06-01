@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- side nav -->
+    <div class="sidenav" id="sideNave"></div>
+
+    <!-- ham burger icon -->
+    <div class="menu-icon">
+        <i class="fa fa-bars" id="open"></i>
+        <i class="fa fa-close" id="close"></i>
+
+    </div>
+        
+    <div class="form-container">
+        <form action="">
+            <div class="input-group">
+                <input type="text" placeholder="Your first name" id="fname">
+                <small id="fnameErr"></small>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="your last name" id="lname">
+                <small id="lnameErr"></small>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Enter yor password" id="pass">
+                <small id="passErr"></small>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Enter confirm password" id="repass">
+                <small id="repassErr"></small>
+            </div>
+            <div class="input-group">
+            <button onclick="return subm();">submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+    <script src="js/custom.js"></script>
+</body>
+</html>
